@@ -27,7 +27,6 @@ def chat_with_openrouter(prompt):
     return response.choices[0].message.content.strip()
 
 # ---- Streamlit UI Setup ----
-st.set_page_config(page_title="AI Travel Planner", layout="wide")
 st.title("🌍 AI Travel Planner")
 st.write("Plan your trip with AI-powered recommendations!")
 
