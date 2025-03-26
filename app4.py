@@ -1,7 +1,12 @@
 import streamlit as st
 import openai
 from tavily import TavilyClient
+import os
 
+st.set_page_config(page_title="AI Trip Planner")
+
+# Get the port Railway assigns
+port = int(os.environ.get("PORT", 8000))
 # ---- API Keys ----
 TAVILY_API_KEY = "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"
 OPENROUTER_API_KEY = "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"
