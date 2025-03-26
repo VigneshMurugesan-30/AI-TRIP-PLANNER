@@ -8,8 +8,8 @@ from tavily import TavilyClient
 
 # ---- API Keys ----
 import os
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+TAVILY_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 # Initialize Tavily Client
 tavily_client = TavilyClient(api_key=TAVILY_API_KEY)
